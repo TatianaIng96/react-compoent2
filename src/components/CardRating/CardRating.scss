@@ -1,0 +1,83 @@
+@import '../../styles//abstract/variables.scss';
+
+.img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  padding: 1rem;
+  right: 0.6rem;
+}
+
+.span_star{
+  display: inline-block;
+  width: 50px; /* Ajusta el ancho según tus necesidades */
+  height: 50px; /* Ajusta la altura según tus necesidades */
+  border-radius: 100%;
+  background-color: hsl(212, 20%, 17%);
+  overflow: hidden;
+  position: relative;
+  left: 3rem;
+  top: 1.6rem;
+}
+
+h2 {
+  font-family: $font-overpass;
+  color: $white-color;
+  margin-top: 15%;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+p{
+  color: $light-grey-color;
+  margin: 3rem;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  font-family: $font-overpass;
+}
+
+.rating {
+  display: inline-block;
+  margin-left: 4%;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: hsl(212, 20%, 17%);
+  color:  $light-grey-color;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.rating input:checked + label {
+  background-color: $primary-color;
+  color: black;
+}
+
+.left {
+  margin-left: 6%;
+  margin-top: -5%;
+}
+
+button{
+  margin-top: 10%;
+  margin-left: 9.5%;
+  width: 330px;
+  height: 35px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: $primary-color;
+  color: $white-color;
+  font-family: $font-overpass;
+  font-size: 15px;
+}

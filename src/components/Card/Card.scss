@@ -1,0 +1,16 @@
+.card{
+    width: 400px;
+    height: 395px;
+    background: linear-gradient( hsl(207, 17%, 12%),  hsl(205, 22%, 11%));
+    border-radius: 5%;
+    overflow-y: auto;
+    position: relative;
+    overflow-x: hidden;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 40px;
+}
+.container {
+    display: flex;
+    padding: 2rem;
+}
